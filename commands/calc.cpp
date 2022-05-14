@@ -36,6 +36,7 @@ int main()
         
         default:
             cout << "Wrong operator " << op << "!\n";
+            return 1;
             break;
     }
 
